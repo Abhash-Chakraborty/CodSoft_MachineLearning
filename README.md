@@ -76,7 +76,7 @@ The project employs [Bank Customer Churn Prediction.](https://www.kaggle.com/dat
 ### Objective
 Develop an AI model for classifying SMS messages as either spam or legitimate. The project aims to employ techniques such as TF-IDF or word embeddings along with classifiers like Naive Bayes, Logistic Regression, or Support Vector Machines to effectively identify spam messages. The primary objective is to enhance SMS filtering systems and improve user experience by minimizing unwanted messages.
 
-###Techniques
+### Techniques
 * **Data Preprocessing**
 > Removal of unnecessary columns (Unnamed: 2, Unnamed: 3, Unnamed: 4) from the dataset.
 
