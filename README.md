@@ -51,23 +51,17 @@ transactions, and the goal is to experiment with algorithms for accurate classif
 
 ## Task - 3 : Customer Churn Prediction
 ### Objective
-Develop a predictive model for customer churn in a subscription-based service or business. The goal is to utilize historical customer data, including usage behavior and demographic features, to forecast customer churn accurately. The project employs algorithms such as Logistic Regression, Random Forests, or Gradient Boosting to predict churn and enhance customer retention strategies.
+The main objective of this project is to develop a predictive model for customer churn in a subscription-based service or business. By utilizing historical customer data, including usage behavior and demographics, the goal is to create a model that can identify customers likely to churn. This predictive capability allows businesses to proactively address customer retention strategies and reduce the impact of customer attrition.
 
 ### Techniques
-* **Data Preprocessing**
-> Label encoding for categorical features (Gender, Geography) to convert them into numeric format.
+The project employs three machine learning algorithms to achieve the objective:
+1. **Logistic Regression :** A classic algorithm for binary classification, Logistic Regression is used to model the probability of customer churn based on input features.
 
-> Selection of relevant features for model training.
+2. **Decision Tree :** Decision Tree classification is applied to segment the dataset into subsets, making decisions based on feature values. This algorithm is effective for understanding feature importance.
 
-* **Exploratory Data Analysis (EDA)**
-> Visualization of churn counts and distribution of the number of products.
+3. **Random Forest :** A powerful ensemble method, Random Forest combines multiple decision trees to improve predictive accuracy and robustness. It provides insights into feature importance and generalizes well on diverse datasets.
 
-> Insights into the distribution of exited customers.
-
-* **Model Building**
-> Implementation of a Random Forest Classifier to predict customer churn.
-
-> Evaluation of model performance using accuracy scores.
+The evaluation of these techniques involves assessing accuracy, confusion matrices, classification reports, and Receiver Operating Characteristic (ROC) curves.
 
 ### Dataset
 The project employs [Bank Customer Churn Prediction.](https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction) The dataset contains information about customers, including features like credit score, geography, gender, age, tenure, balance, number of products, credit card status, activity status, and estimated salary. The aim is to leverage this data to develop a robust model for predicting customer churn in subscription-based services or businesses.
