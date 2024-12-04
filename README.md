@@ -1,97 +1,76 @@
-# CodSoft_MachineLearning
-Welcome to the repository containing my solutions for the **"Machine Learning Internship"** offered by CodSoft. Here, you'll find a comprehensive collection of my completed tasks, showcasing the skills and knowledge acquired throughout the internship.
+# CodSoft_MachineLearning  
+Welcome to the repository containing my solutions for the **"Machine Learning Internship"** offered by CodSoft. Here, you'll find a comprehensive collection of my completed tasks, showcasing the skills and knowledge acquired throughout the internship.  
 
-## Task - 1 : Movie Genre Classification
-### Objective
-Develop a robust machine learning model capable of accurately predicting a movie's genre based on textual information.
+## Task - 1 : Movie Genre Classification  
+### Objective  
+Develop a robust machine learning model capable of accurately predicting a movie's genre based on textual information.  
 
-### Techniques
-Utilize advanced text processing techniques, including TF-IDF and word embeddings, along with well-established classifiers like Naive Bayes, Logistic Regression, or Support Vector Machines.
+### Techniques  
+Utilize advanced text processing techniques, including TF-IDF and word embeddings, along with well-established classifiers like Naive Bayes, Logistic Regression, or Support Vector Machines.  
 
-### Dataset
-The project utilizes the [Genre Classification Dataset from IMDb](https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb) available on Kaggle. This dataset provides the necessary information for training and testing the genre classification model.
+### Dataset  
+The project utilizes the [Genre Classification Dataset from IMDb](https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb). This dataset provides the necessary information for training and testing the genre classification model.  
 
-## Task - 2 : Credit Card Fraud Detection
-### Objective
-Build a robust machine learning model for detecting fraudulent credit card transactions. The objective is to implement algorithms, such as Logistic Regression and Decision Trees, to classify transactions as legitimate or fraudulent. The project includes exploratory data analysis, data preprocessing, feature engineering, upsampling, model building, and hyperparameter tuning.
+---
 
-### Techniques
-* **Exploratory Data Analysis (EDA)**
-> In-depth exploration of the dataset, analyzing features like gender, state, city, job, etc.
+## Task - 2 : Credit Card Fraud Detection  
+### Objective  
+Build a robust machine learning model for detecting fraudulent credit card transactions.  
 
-> Visualizations to understand patterns in fraudulent transactions.
+### Techniques  
+- **Exploratory Data Analysis (EDA):** Analyze patterns and visualize trends in fraudulent transactions.  
+- **Data Preprocessing:** Handle missing data, encode categorical variables, and format date columns.  
+- **Feature Engineering:** Create additional features like age, latitudinal_distance, and longitudinal_distance.  
+- **Upsampling:** Address class imbalance through oversampling of the minority class.  
+- **Model Building:** Train Logistic Regression and Decision Tree Classifier models.  
+- **Hyperparameter Tuning:** Optimize model performance using RandomizedSearchCV.  
 
-* **Data Preprocessing**
-> Conversion of date-related columns to the appropriate format.
+### Dataset  
+The project uses the [Credit Card Transactions Fraud Detection Dataset](https://www.kaggle.com/datasets/kartik2112/fraud-detection).  
 
-> Removal of unnecessary columns and encoding of categorical variables.
+---
 
-* **Feature Engineering**
-> Creation of additional features (age, trans_month, latitudinal_distance, longitudinal_distance) to enhance model performance.
+## Task - 3 : Customer Churn Prediction  
+### Objective  
+Develop a predictive model for customer churn in subscription-based services using historical customer data.  
 
-* **Upsampling**
-> Upsampling of the minority class (fraudulent transactions) to address class imbalance.
+### Techniques  
+- Implement Logistic Regression, Decision Tree, and Random Forest algorithms.  
+- Evaluate model performance using accuracy, confusion matrices, and ROC curves.  
 
-* **Model Building**
-> Implementation of Logistic Regression and Decision Tree Classifier models.
+### Dataset  
+The project uses the [Bank Customer Churn Prediction Dataset](https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction).  
 
-> Calculation of model performance metrics: accuracy, mean absolute error, F1 score.
+---
 
-* **Model Evaluation**
-> Confusion matrices and classification reports for a detailed overview of model performance.
+## Task - 4 : Spam SMS Detection  
+### Objective  
+Create an AI model to classify SMS messages as spam or legitimate.  
 
-> Visualization of Receiver Operating Characteristic (ROC) curves.
+### Techniques  
+- Preprocess text data by removing punctuation and stopwords.  
+- Build models using Multinomial Naive Bayes, Support Vector Machines, K-Nearest Neighbors, and others.  
+- Evaluate performance using accuracy scores, confusion matrices, and classification reports.  
 
-* **Hyperparameter Tuning**
-> Utilization of Randomized Search to find optimal hyperparameters for the Decision Tree model.
+### Dataset  
+The project uses the [SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset).  
 
-### Dataset
-The project employs [Credit Card Transactions Fraud Detection Dataset.](https://www.kaggle.com/datasets/kartik2112/fraud-detection) The dataset includes information about credit card 
-transactions, and the goal is to experiment with algorithms for accurate classification of transactions as either fraudulent or legitimate.
+---
 
-## Task - 3 : Customer Churn Prediction
-### Objective
-The main objective of this project is to develop a predictive model for customer churn in a subscription-based service or business. By utilizing historical customer data, including usage behavior and demographics, the goal is to create a model that can identify customers likely to churn. This predictive capability allows businesses to proactively address customer retention strategies and reduce the impact of customer attrition.
+## Task - 5 : House Price Prediction  
+### Objective  
+Develop a machine learning model to predict house prices based on various features, enabling real estate businesses and buyers to make informed decisions.  
 
-### Techniques
-The project employs three machine learning algorithms to achieve the objective:
-1. **Logistic Regression :** A classic algorithm for binary classification, Logistic Regression is used to model the probability of customer churn based on input features.
+### Techniques  
+- **Exploratory Data Analysis (EDA):** Visualize important features and correlations using heatmaps.  
+- **Data Preprocessing:** Handle missing values, outliers, and encode categorical variables.  
+- **Feature Engineering:** Create derived features like price per square foot or house age.  
+- **Model Building:** Implement regression algorithms such as Linear Regression, Random Forest Regressor, and Gradient Boosting Regressor.  
+- **Model Evaluation:** Calculate metrics like MAE, RMSE, and R² score. Visualize predicted vs. actual prices.  
 
-2. **Decision Tree :** Decision Tree classification is applied to segment the dataset into subsets, making decisions based on feature values. This algorithm is effective for understanding feature importance.
+### Dataset  
+The project utilizes the [Ames Housing Dataset](https://www.kaggle.com/datasets/codeinstitute/housing-prices-data).  
 
-3. **Random Forest :** A powerful ensemble method, Random Forest combines multiple decision trees to improve predictive accuracy and robustness. It provides insights into feature importance and generalizes well on diverse datasets.
+---  
 
-The evaluation of these techniques involves assessing accuracy, confusion matrices, classification reports, and Receiver Operating Characteristic (ROC) curves.
-
-### Dataset
-The project employs [Bank Customer Churn Prediction.](https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction) The dataset contains information about customers, including features like credit score, geography, gender, age, tenure, balance, number of products, credit card status, activity status, and estimated salary. The aim is to leverage this data to develop a robust model for predicting customer churn in subscription-based services or businesses.
-
-## Task - 4 : Spam SMS Detection
-### Objective
-Develop an AI model for classifying SMS messages as either spam or legitimate. The project aims to employ techniques such as TF-IDF or word embeddings along with classifiers like Naive Bayes, Logistic Regression, or Support Vector Machines to effectively identify spam messages. The primary objective is to enhance SMS filtering systems and improve user experience by minimizing unwanted messages.
-
-### Techniques
-* **Data Preprocessing**
-> Removal of unnecessary columns (Unnamed: 2, Unnamed: 3, Unnamed: 4) from the dataset.
-
-> Renaming columns to "label" and "text" for clarity.
-
-> Mapping labels ("spam" and "ham") to binary values for model training.
-
-* **Exploratory Data Analysis (EDA)**
-> Visualization of spam and ham counts.
-
-> Analysis of message lengths for spam and ham messages.
-
-* **Text Processing**
-> Tokenization, removal of punctuation, and removal of stopwords to clean and prepare text data.
-
-> Word cloud visualization for understanding common words in spam and ham messages.
-
-* **Model Building**
-> Implementation of classifiers such as Multinomial Naive Bayes, Support Vector Machines, K-Nearest Neighbors, Stochastic Gradient Descent, and Gradient Boosting.
-
-> Model evaluation using accuracy scores, confusion matrices, and classification reports.
-
-### Dataset
-The project utilizes [SMS Spam Collection Dataset.](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset) The dataset contains SMS messages labeled as "spam" or "ham" (legitimate). The objective is to leverage this data to build a robust AI model capable of accurately classifying SMS messages and distinguishing between spam and legitimate content.
+This repository highlights the breadth of machine learning techniques and concepts I applied during this internship, providing solutions to diverse real-world problems.  
